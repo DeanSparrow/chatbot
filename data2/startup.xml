@@ -1,11 +1,13 @@
 <aiml version="1.0">
 
-<!-- This category works with the standard AIML Set -->
+<!-- This category works with the Standard AIML Set -->
 <category>
 <pattern>LOAD AIML B</pattern>
 <template>
 
-	<learn>data2/*.aiml</learn>
+<!-- Load standard AIML set -->
+<learn>std-*.aiml</learn>
+
 </template>
 </category>
 
